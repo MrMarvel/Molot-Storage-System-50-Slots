@@ -73,7 +73,7 @@
       <RequiredItem identifier="molot_multitool" type="Equipped" />
     </Holdable>
     <ItemContainer autofill="False" capacity="50" slotsperrow="10" canbeselected="true" hideitems="true" movableframe="true" keepopenwhenequipped="false">
-      <GuiFrame relativesize="0.4,0.5" anchor="Center" style="ItemUI" />
+      <GuiFrame relativesize="0.3,0.4" anchor="Center" style="ItemUI" />
       <Containable identifiers="smallitem,mediumitem"></Containable>
     </ItemContainer>
     <LightComponent characterusable="false" LightColor="255,255,255,75" range="40" IsOn="true" Flicker="0.3" flickerspeed="0.1" PowerConsumption="0" VulnerableToEMP="false"></LightComponent>
@@ -92,7 +92,7 @@
       <RequiredItem identifier="molot_multitool" type="Equipped" />
     </Holdable>
     <ItemContainer autofill="False" capacity="50" slotsperrow="10" canbeselected="true" hideitems="true" movableframe="true" keepopenwhenequipped="false">
-      <GuiFrame relativesize="0.4,0.5" anchor="Center" style="ItemUI" />
+      <GuiFrame relativesize="0.3,0.4" anchor="Center" style="ItemUI" />
       <Containable identifiers="smallitem,medical,plant,chem,explosive" excludeditems="toolbox,ore,tool,oxygentank,oxygenitetank,weldingfueltank,incendiumfueltank,wire,button,weapon,gun,clothing,grenade" />
     </ItemContainer>
     <LightComponent characterusable="false" LightColor="255,255,255,75" range="40" IsOn="true" Flicker="0.3" flickerspeed="0.1" PowerConsumption="0" VulnerableToEMP="false"></LightComponent>
@@ -108,7 +108,7 @@
     <Sprite texture="molot_containers.png" depth="0.7" sourcerect="400,0,100,138" origin="0.5,0.5" />
     <Body width="150" height="150" density="10" />
     <ItemContainer autofill="False" capacity="50" slotsperrow="10" canbeselected="true" hideitems="true" movableframe="true" keepopenwhenequipped="false">
-      <GuiFrame relativesize="0.4,0.5" anchor="Center" style="ItemUI" />
+      <GuiFrame relativesize="0.3,0.4" anchor="Center" style="ItemUI" />
       <Containable identifiers="smallitem,ore,plant,chem,explosive" excludeditems="toolbox,medical,tool,oxygentank,oxygenitetank,weldingfueltank,incendiumfueltank,wire,button,weapon,gun,clothing,grenade" />
     </ItemContainer>
     <Holdable selectkey="Select" pickkey="Use" slots="RightHand+LeftHand" msg="[E] Detach with Molot Multi Tool" PickingTime="5.0" aimpos="35,-10" handle1="0,0" attachable="true" aimable="true">
@@ -127,7 +127,7 @@
     <Sprite texture="molot_containers.png" depth="0.7" sourcerect="200,0,100,138" origin="0.5,0.5" />
     <Body width="150" height="150" density="10" />
     <ItemContainer autofill="False" capacity="50" slotsperrow="10" canbeselected="true" hideitems="true" movableframe="true" keepopenwhenequipped="false">
-      <GuiFrame relativesize="0.4,0.5" anchor="Center" style="ItemUI" />
+      <GuiFrame relativesize="0.3,0.4" anchor="Center" style="ItemUI" />
       <Containable identifiers="smallitem,mediumitem,grenade,weapon,chem,explosive,incendiumfueltank" excludeditems="toolbox,ore,medical,plant,tool,oxygentank,oxygenitetank,weldingfueltank,wire,button,gun,clothing" />
     </ItemContainer>
     <Holdable selectkey="Select" pickkey="Use" slots="RightHand+LeftHand" msg="[E] Detach with Molot Multi Tool" PickingTime="5.0" aimpos="35,-10" handle1="0,0" attachable="true" aimable="true">
@@ -146,7 +146,7 @@
     <Sprite texture="molot_containers.png" depth="0.7" sourcerect="300,0,100,138" origin="0.5,0.5" />
     <Body width="150" height="150" density="10" />
     <ItemContainer autofill="False" capacity="50" slotsperrow="10" canbeselected="true" hideitems="true" movableframe="true" keepopenwhenequipped="false">
-      <GuiFrame relativesize="0.4,0.5" anchor="Center" style="ItemUI" />
+      <GuiFrame relativesize="0.3,0.4" anchor="Center" style="ItemUI" />
       <Containable identifiers="smallitem,mediumitem,tool,button,oxygentank,oxygenitetank,weldingfueltank,incendiumfueltank,wire,toolbox,incendiumfueltank," excludeditems="ore,grenade,weapon,chem,explosive,medical,plant,weapon,gun,clothing,grenade" />
     </ItemContainer>
     <Holdable selectkey="Select" pickkey="Use" slots="RightHand+LeftHand" msg="[E] Detach with Molot Multi Tool" PickingTime="5.0" aimpos="35,-10" handle1="0,0" attachable="true" aimable="true">
@@ -165,7 +165,7 @@
     <Sprite texture="molot_containers.png" depth="0.7" sourcerect="500,0,100,138" origin="0.5,0.5" />
     <Body width="150" height="150" density="10" />
     <ItemContainer autofill="False" capacity="50" slotsperrow="10" canbeselected="true" hideitems="true" movableframe="true" keepopenwhenequipped="false">
-      <GuiFrame relativesize="0.4,0.5" anchor="Center" style="ItemUI" />
+      <GuiFrame relativesize="0.3,0.4" anchor="Center" style="ItemUI" />
       <Containable identifiers="smallitem,mediumitem" excludeditems="ore,grenade,weapon,chem,explosive,medical,plant,weapon,gun,clothing,grenade,mediumitem,tool,button,oxygentank,oxygenitetank,weldingfueltank,incendiumfueltank,wire,toolbox,incendiumfueltank" />
     </ItemContainer>
     <Holdable selectkey="Select" pickkey="Use" slots="RightHand+LeftHand" msg="[E] Detach with Molot Multi Tool" PickingTime="5.0" aimpos="35,-10" handle1="0,0" attachable="true" aimable="true">
@@ -184,7 +184,7 @@
     <Sprite texture="molot_containers.png" depth="0.7" sourcerect="600,0,100,138" origin="0.5,0.5" />
     <Body width="150" height="150" density="10" />
     <ItemContainer autofill="False" capacity="50" slotsperrow="10" canbeselected="true" hideitems="true" movableframe="true" keepopenwhenequipped="false">
-      <GuiFrame relativesize="0.4,0.5" anchor="Center" style="ItemUI" />
+      <GuiFrame relativesize="0.3,0.4" anchor="Center" style="ItemUI" />
       <Containable identifiers="smallitem,mediumitem,weapon,gun" excludeditems="ore,grenadechem,explosive,medical,plant,clothing,grenade,tool,button,oxygentank,oxygenitetank,weldingfueltank,incendiumfueltank,wire,toolbox,incendiumfueltank" />
     </ItemContainer>
     <Holdable selectkey="Select" pickkey="Use" slots="RightHand+LeftHand" msg="[E] Detach with Molot Multi Tool" PickingTime="5.0" aimpos="35,-10" handle1="0,0" attachable="true" aimable="true">
