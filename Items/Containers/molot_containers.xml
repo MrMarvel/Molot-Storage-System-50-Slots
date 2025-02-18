@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Items>
   <Item name="S4 General Item Storage [MP]" identifier="molot_mp_general_storage" tags="locker,container" linkable="true" pickdistance="150" scale="0.5" description="Specialized Submarine Storage Systems(S4) for all small and medium items. Due to recent case of toolbox decapitation, toolboxes are no longer storeable in S4 systems, have a good day - Molot Industries">
     <Sprite texture="molot_containers.png" depth="0.84" sourcerect="000,0,100,138" origin="0.5,0.5" />
@@ -67,7 +67,7 @@
     </Price>
     <Sprite texture="molot_containers.png" depth="0.7" sourcerect="0,0,100,138" origin="0.5,0.5" />
     <Body width="150" height="150" density="10" />
-    <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="[E] Detach with Molot Multi Tool" PickingTime="5.0" aimpos="35,-10" handle1="0,0" attachable="true" aimable="true">
+    <Holdable selectkey="Select" pickkey="Use" slots="RightHand+LeftHand" msg="[E] Detach with Molot Multi Tool" PickingTime="5.0" aimpos="35,-10" handle1="0,0" attachable="true" aimable="true">
       <RequiredItem identifier="molot_multitool" type="Equipped" />
     </Holdable>
     <ItemContainer autofill="False" capacity="50" slotsperrow="15" canbeselected="true" hideitems="true" movableframe="true" keepopenwhenequipped="false">
@@ -86,7 +86,7 @@
     </Price>
     <Sprite texture="molot_containers.png" depth="0.7" sourcerect="100,0,100,138" origin="0.5,0.5" />
     <Body width="150" height="150" density="10" />
-    <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="[E] Detach with Molot Multi Tool" PickingTime="5.0" aimpos="35,-10" handle1="0,0" attachable="true" aimable="true">
+    <Holdable selectkey="Select" pickkey="Use" slots="RightHand+LeftHand" msg="[E] Detach with Molot Multi Tool" PickingTime="5.0" aimpos="35,-10" handle1="0,0" attachable="true" aimable="true">
       <RequiredItem identifier="molot_multitool" type="Equipped" />
     </Holdable>
     <ItemContainer autofill="False" capacity="50" slotsperrow="15" canbeselected="true" hideitems="true" movableframe="true" keepopenwhenequipped="false">
@@ -109,7 +109,7 @@
       <GuiFrame relativesize="0.6,0.7" anchor="Center" style="ItemUI" />
       <Containable identifiers="smallitem,ore,plant,chem,explosive" excludeditems="toolbox,medical,tool,oxygentank,oxygenitetank,weldingfueltank,incendiumfueltank,wire,button,weapon,gun,clothing,grenade" />
     </ItemContainer>
-    <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="[E] Detach with Molot Multi Tool" PickingTime="5.0" aimpos="35,-10" handle1="0,0" attachable="true" aimable="true">
+    <Holdable selectkey="Select" pickkey="Use" slots="RightHand+LeftHand" msg="[E] Detach with Molot Multi Tool" PickingTime="5.0" aimpos="35,-10" handle1="0,0" attachable="true" aimable="true">
       <RequiredItem identifier="molot_multitool" type="Equipped" />
     </Holdable>
     <LightComponent characterusable="false" LightColor="255,255,255,75" range="40" IsOn="true" Flicker="0.3" flickerspeed="0.1" PowerConsumption="0" VulnerableToEMP="false"></LightComponent>
@@ -128,7 +128,7 @@
       <GuiFrame relativesize="0.6,0.7" anchor="Center" style="ItemUI" />
       <Containable identifiers="smallitem,mediumitem,grenade,weapon,chem,explosive,incendiumfueltank" excludeditems="toolbox,ore,medical,plant,tool,oxygentank,oxygenitetank,weldingfueltank,wire,button,gun,clothing" />
     </ItemContainer>
-    <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="[E] Detach with Molot Multi Tool" PickingTime="5.0" aimpos="35,-10" handle1="0,0" attachable="true" aimable="true">
+    <Holdable selectkey="Select" pickkey="Use" slots="RightHand+LeftHand" msg="[E] Detach with Molot Multi Tool" PickingTime="5.0" aimpos="35,-10" handle1="0,0" attachable="true" aimable="true">
       <RequiredItem identifier="molot_multitool" type="Equipped" />
     </Holdable>
     <LightComponent characterusable="false" LightColor="255,255,255,75" range="40" IsOn="true" Flicker="0.3" flickerspeed="0.1" PowerConsumption="0" VulnerableToEMP="false"></LightComponent>
@@ -147,7 +147,7 @@
       <GuiFrame relativesize="0.6,0.7" anchor="Center" style="ItemUI" />
       <Containable identifiers="smallitem,mediumitem,tool,button,oxygentank,oxygenitetank,weldingfueltank,incendiumfueltank,wire,toolbox,incendiumfueltank," excludeditems="ore,grenade,weapon,chem,explosive,medical,plant,weapon,gun,clothing,grenade" />
     </ItemContainer>
-    <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="[E] Detach with Molot Multi Tool" PickingTime="5.0" aimpos="35,-10" handle1="0,0" attachable="true" aimable="true">
+    <Holdable selectkey="Select" pickkey="Use" slots="RightHand+LeftHand" msg="[E] Detach with Molot Multi Tool" PickingTime="5.0" aimpos="35,-10" handle1="0,0" attachable="true" aimable="true">
       <RequiredItem identifier="molot_multitool" type="Equipped" />
     </Holdable>
     <LightComponent characterusable="false" LightColor="255,255,255,75" range="40" IsOn="true" Flicker="0.3" flickerspeed="0.1" PowerConsumption="0" VulnerableToEMP="false"></LightComponent>
@@ -166,7 +166,7 @@
       <GuiFrame relativesize="0.6,0.7" anchor="Center" style="ItemUI" />
       <Containable identifiers="smallitem,mediumitem" excludeditems="ore,grenade,weapon,chem,explosive,medical,plant,weapon,gun,clothing,grenade,mediumitem,tool,button,oxygentank,oxygenitetank,weldingfueltank,incendiumfueltank,wire,toolbox,incendiumfueltank" />
     </ItemContainer>
-    <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="[E] Detach with Molot Multi Tool" PickingTime="5.0" aimpos="35,-10" handle1="0,0" attachable="true" aimable="true">
+    <Holdable selectkey="Select" pickkey="Use" slots="RightHand+LeftHand" msg="[E] Detach with Molot Multi Tool" PickingTime="5.0" aimpos="35,-10" handle1="0,0" attachable="true" aimable="true">
       <RequiredItem identifier="molot_multitool" type="Equipped" />
     </Holdable>
     <LightComponent characterusable="false" LightColor="255,255,255,75" range="40" IsOn="true" Flicker="0.3" flickerspeed="0.1" PowerConsumption="0" VulnerableToEMP="false"></LightComponent>
@@ -185,7 +185,7 @@
       <GuiFrame relativesize="0.6,0.7" anchor="Center" style="ItemUI" />
       <Containable identifiers="smallitem,mediumitem,weapon,gun" excludeditems="ore,grenadechem,explosive,medical,plant,clothing,grenade,tool,button,oxygentank,oxygenitetank,weldingfueltank,incendiumfueltank,wire,toolbox,incendiumfueltank" />
     </ItemContainer>
-    <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="[E] Detach with Molot Multi Tool" PickingTime="5.0" aimpos="35,-10" handle1="0,0" attachable="true" aimable="true">
+    <Holdable selectkey="Select" pickkey="Use" slots="RightHand+LeftHand" msg="[E] Detach with Molot Multi Tool" PickingTime="5.0" aimpos="35,-10" handle1="0,0" attachable="true" aimable="true">
       <RequiredItem identifier="molot_multitool" type="Equipped" />
     </Holdable>
     <LightComponent characterusable="false" LightColor="255,255,255,75" range="40" IsOn="true" Flicker="0.3" flickerspeed="0.1" PowerConsumption="0" VulnerableToEMP="false"></LightComponent>
