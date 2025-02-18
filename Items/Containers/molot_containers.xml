@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
+  <!-- Too cool items here
   <Item name="S4 General Item Storage [MP]" identifier="molot_mp_general_storage" tags="locker,container" linkable="true" pickdistance="150" scale="0.5" description="Specialized Submarine Storage Systems(S4) for all small and medium items. Due to recent case of toolbox decapitation, toolboxes are no longer storeable in S4 systems, have a good day - Molot Industries">
     <Sprite texture="molot_containers.png" depth="0.84" sourcerect="000,0,100,138" origin="0.5,0.5" />
     <ItemContainer capacity="50" slotsperrow="15" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
@@ -55,7 +56,8 @@
       <Containable items="smallitem,mediumitem,weapon,gun" excludeditems="ore,grenadechem,explosive,medical,plant,clothing,grenade,tool,button,oxygentank,oxygenitetank,weldingfueltank,incendiumfueltank,wire,toolbox,incendiumfueltank" />
     </ItemContainer>
     <LightComponent characterusable="false" LightColor="255,255,255,75" range="40" IsOn="true" Flicker="0.3" flickerspeed="0.1" PowerConsumption="0" VulnerableToEMP="false"></LightComponent>
-  </Item>
+  </Item> 
+  End section of removal items-->
   <!-- Installable Portable Storage -->
   <Item name="S4 Installable General Storage" identifier="molot_mp_portable_general_storage" tags="crate" linkable="true" cargocontaineridentifier="metalcrate" pickdistance="150" scale="0.5" description="Molot Industries presents to you, a revolution in storage solutions. Installable General Storage - portable, usable and attachable storage, for holding all manners of all small and medium items. On the Back of the Item says : - To install hold in your hands, hold right mouse button to see where you are going to place it and than press [E] to install. To detach use Molot Multi Tool.">
     <Price baseprice="50">
