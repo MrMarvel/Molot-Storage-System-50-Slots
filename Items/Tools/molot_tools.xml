@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="Molot Multi Tool" identifier="molot_multitool" category="Equipment" Tags="smallitem,tool" cargocontaineridentifier="metalcrate" Scale="0.5" impactsoundtag="impact_metal_light" description="Molot Multi Tool - the only multi tool you would ever need. Light, comfortable, great at bashing people heads. This tools is used to to detach S4 Installable General Storage. Note on the handle - :Keep away from Clowns and Griefers.">
+    <Price baseprice="1">
+      <Price locationtype="outpost" multiplier="1" minavailable="10" />
+      <Price locationtype="city" multiplier="1" minavailable="10" />
+      <Price locationtype="research" multiplier="1" minavailable="10" />
+      <Price locationtype="military" multiplier="1" minavailable="10" />
+      <Price locationtype="mine" multiplier="1" minavailable="10" />
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="iron" />
+    </Deconstruct>
+    <Sprite texture="molot_tools.png" sourcerect="0,0,104,52" depth="0.55" origin="0.5,0.5" />
+    <Body width="60" height="15" density="50" />
+    <MeleeWeapon slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="-12,-5" holdangle="60" reload="1.0" range="50" combatpriority="5" msg="ItemMsgPickUpSelect">
+      <Attack structuredamage="2" itemdamage="2" stun="0.2" targetimpulse="5">
+        <Affliction identifier="blunttrauma" strength="4" />
+        <Sound file="Content/Items/Weapons/Smack1.ogg" range="800" />
+      </Attack>
+    </MeleeWeapon>
+    <aitarget sightrange="500" soundrange="500" fadeouttime="1" />
+    <Upgrade gameversion="0.10.0.0" scale="0.5" />
+  </Item>
+</Items>

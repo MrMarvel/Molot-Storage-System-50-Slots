@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Molot Storage System MP" steamworkshopid="2244657211" corepackage="false" modversion="1.0.0" gameversion="0.10.5.1" installtime="1601550040" altnames="Molot Storage System MP">
+  <Item file="%ModDir%/Items/Containers/molot_containers.xml" />
+  <None file="%ModDir%/Items/Containers/molot_containers.png" />
+  <Item file="%ModDir%/Items/Tools/molot_tools.xml" />
+  <None file="%ModDir%/Items/Tools/molot_tools.png" />
+</contentpackage>
