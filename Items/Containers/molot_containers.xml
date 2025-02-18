@@ -2,7 +2,7 @@
 <Items>
   <Item name="S4 General Item Storage [MP]" identifier="molot_mp_general_storage" tags="locker,container" linkable="true" pickdistance="150" scale="0.5" description="Specialized Submarine Storage Systems(S4) for all small and medium items. Due to recent case of toolbox decapitation, toolboxes are no longer storeable in S4 systems, have a good day - Molot Industries">
     <Sprite texture="molot_containers.png" depth="0.84" sourcerect="000,0,100,138" origin="0.5,0.5" />
-    <ItemContainer capacity="100" slotsperrow="15" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
+    <ItemContainer capacity="50" slotsperrow="15" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
       <GuiFrame relativesize="0.6,0.7" anchor="Center" style="ItemUI" />
       <Containable items="smallitem,mediumitems" excludeditems="toolbox" />
     </ItemContainer>
@@ -10,7 +10,7 @@
   </Item>
   <Item name="S4 Material Storage [MP]" identifier="molot_mp_material_storage" tags="locker,container" linkable="true" pickdistance="150" scale="0.5" description="Specialized Submarine Storage Systems(S4) for holding crafting materials. Storage Terminal accepts materials, ores, plants and explosive components. Any other item is rejected for security reasons. Advertisment - Keep your submarine clean, by ordering Molot Handheld Vacume Cleaner, no more husk infestation due to stepping on the husk eggs.">
     <Sprite texture="molot_containers.png" depth="0.84" sourcerect="400,0,100,138" origin="0.5,0.5" />
-    <ItemContainer capacity="100" slotsperrow="15" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
+    <ItemContainer capacity="50" slotsperrow="15" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
       <GuiFrame relativesize="0.6,0.7" anchor="Center" style="ItemUI" />
       <Containable items="smallitem,ore,plant,chem,explosive" excludeditems="toolbox,medical,tool,oxygentank,oxygenitetank,weldingfueltank,incendiumfueltank,wire,button,weapon,gun,clothing,grenade" />
     </ItemContainer>
@@ -18,7 +18,7 @@
   </Item>
   <Item name="S4 Medical Storage [MP]" identifier="molot_mp_medical_storage" tags="locker,container" linkable="true" pickdistance="150" scale="0.5" description="Specialized Submarine Storage Systems(S4) for holding medical materials and components. Storage Terminal accepts wide variaty medical items, as well as plants and chemical components. Any other item is rejected for security reasons. If your husk eggs stuck in trashshute, don`t worry, just contact us at Molot Industries.">
     <Sprite texture="molot_containers.png" depth="0.84" sourcerect="100,0,100,138" origin="0.5,0.5" />
-    <ItemContainer capacity="100" slotsperrow="15" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
+    <ItemContainer capacity="50" slotsperrow="15" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
       <GuiFrame relativesize="0.6,0.7" anchor="Center" style="ItemUI" />
       <Containable items="smallitem,medical,plant,chem,explosive" excludeditems="toolbox,ore,tool,oxygentank,oxygenitetank,weldingfueltank,incendiumfueltank,wire,button,weapon,gun,clothing,grenade" />
     </ItemContainer>
@@ -26,7 +26,7 @@
   </Item>
   <Item name="S4 Explosive Storage [MP]" identifier="molot_mp_explosive_storage" tags="locker,container" linkable="true" pickdistance="150" scale="0.5" description="Specialized Submarine Storage Systems(S4) for holding  explosive materials and items. Storage Terminal accepts only explosive related items. Any other item is rejected for security reasons. Please disarm explosives before dropping it into container. Molot Industries.">
     <Sprite texture="molot_containers.png" depth="0.84" sourcerect="200,0,100,138" origin="0.5,0.5" />
-    <ItemContainer capacity="100" slotsperrow="15" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
+    <ItemContainer capacity="50" slotsperrow="15" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
       <GuiFrame relativesize="0.6,0.7" anchor="Center" style="ItemUI" />
       <Containable items="smallitem,mediumitem,grenade,weapon,chem,explosive,incendiumfueltank" excludeditems="toolbox,ore,medical,plant,tool,oxygentank,oxygenitetank,weldingfueltank,wire,button,gun,clothing" />
     </ItemContainer>
@@ -34,7 +34,7 @@
   </Item>
   <Item name="S4 Tool Storage [MP]" identifier="molot_mp_tool_storage" tags="locker,container" linkable="true" pickdistance="150" scale="0.5" description="Specialized Submarine Storage Systems(S4) for holding wide variety of tools. Storage Terminal accepts only technical and electrical tools, as well as fuel for said tools. Any other item is rejected for security reasons. In next Jupiter year, Molot industries will present toolbelt for all your favourite tools, stay tuned.">
     <Sprite texture="molot_containers.png" depth="0.84" sourcerect="300,0,100,138" origin="0.5,0.5" />
-    <ItemContainer capacity="100" slotsperrow="15" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
+    <ItemContainer capacity="50" slotsperrow="15" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
       <GuiFrame relativesize="0.6,0.7" anchor="Center" style="ItemUI" />
       <Containable items="smallitem,mediumitem,tool,button,oxygentank,oxygenitetank,weldingfueltank,incendiumfueltank,wire,toolbox,incendiumfueltank" excludeditems="ore,grenade,weapon,chem,explosive,medical,plant,weapon,gun,clothing,grenade" />
     </ItemContainer>
@@ -42,7 +42,7 @@
   </Item>
   <Item name="S4 Ammo Storage [MP]" identifier="molot_mp_ammo_storage" tags="locker,container" linkable="true" pickdistance="150" scale="0.5" description="Specialized Submarine Storage Systems(S4) for holding pistol, smg and other types of ammo. Storage Terminal accepts only ammo from personal firearms. Any other item is rejected for security reasons. Railgun ammo is not storable, Railgun is not a personal firearm, neither is coilgun. Contact Molot Industries, if your trash chute is clooged.">
     <Sprite texture="molot_containers.png" depth="0.84" sourcerect="500,0,100,138" origin="0.5,0.5" />
-    <ItemContainer capacity="100" slotsperrow="15" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
+    <ItemContainer capacity="50" slotsperrow="15" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
       <GuiFrame relativesize="0.6,0.7" anchor="Center" style="ItemUI" />
       <Containable items="smallitem,mediumitem" excludeditems="ore,grenade,weapon,chem,explosive,medical,plant,weapon,gun,clothing,grenade,mediumitem,tool,button,oxygentank,oxygenitetank,weldingfueltank,incendiumfueltank,wire,toolbox,incendiumfueltank" />
     </ItemContainer>
@@ -50,14 +50,14 @@
   </Item>
   <Item name="S4 Weapon Storage [MP]" identifier="molot_mp_weapon_storage" tags="locker,container" linkable="true" pickdistance="150" scale="0.5" description="Specialized Submarine Storage Systems(S4) for holding personal defense weapons. Storage Terminal accept only pistols, smgs, shotgun and alike. Any other item is rejected for logistical reason. Molot Induestries fun fact #976 - S4 Weapon Storage has the highest number of Sign ins across all of S4 Systems. Small Text: counted both authorized and non authorized access">
     <Sprite texture="molot_containers.png" depth="0.84" sourcerect="600,0,100,138" origin="0.5,0.5" />
-    <ItemContainer capacity="100" slotsperrow="15" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
+    <ItemContainer capacity="50" slotsperrow="15" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
       <GuiFrame relativesize="0.6,0.7" anchor="Center" style="ItemUI" />
       <Containable items="smallitem,mediumitem,weapon,gun" excludeditems="ore,grenadechem,explosive,medical,plant,clothing,grenade,tool,button,oxygentank,oxygenitetank,weldingfueltank,incendiumfueltank,wire,toolbox,incendiumfueltank" />
     </ItemContainer>
     <LightComponent characterusable="false" LightColor="255,255,255,75" range="40" IsOn="true" Flicker="0.3" flickerspeed="0.1" PowerConsumption="0" VulnerableToEMP="false"></LightComponent>
   </Item>
   <!-- Installable Portable Storage -->
-  <Item name="S4 Installable General Storage [MP]" identifier="molot_mp_portable_general_storage" tags="smallitem,locker,container" linkable="true" cargocontaineridentifier="metalcrate" pickdistance="150" scale="0.5" description="Molot Industries presents to you, a revolution in storage solutions. Installable General Storage - portable, usable and attachable storage, for holding all manners of all small and medium items. On the Back of the Item says : - To install hold in your hands, hold right mouse button to see where you are going to place it and than press [E] to install. To detach use Molot Multi Tool.">
+  <Item name="S4 Installable General Storage" identifier="molot_mp_portable_general_storage" tags="crate" linkable="true" cargocontaineridentifier="metalcrate" pickdistance="150" scale="0.5" description="Molot Industries presents to you, a revolution in storage solutions. Installable General Storage - portable, usable and attachable storage, for holding all manners of all small and medium items. On the Back of the Item says : - To install hold in your hands, hold right mouse button to see where you are going to place it and than press [E] to install. To detach use Molot Multi Tool.">
     <Price baseprice="50">
       <Price locationtype="outpost" multiplier="1" minavailable="5" />
       <Price locationtype="city" multiplier="1" minavailable="5" />
@@ -70,13 +70,13 @@
     <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="[E] Detach with Molot Multi Tool" PickingTime="5.0" aimpos="35,-10" handle1="0,0" attachable="true" aimable="true">
       <RequiredItem identifier="molot_multitool" type="Equipped" />
     </Holdable>
-    <ItemContainer autofill="False" capacity="100" slotsperrow="15" canbeselected="true" hideitems="true" movableframe="true" keepopenwhenequipped="false">
+    <ItemContainer autofill="False" capacity="50" slotsperrow="15" canbeselected="true" hideitems="true" movableframe="true" keepopenwhenequipped="false">
       <GuiFrame relativesize="0.6,0.7" anchor="Center" style="ItemUI" />
       <Containable identifiers="smallitem,mediumitem"></Containable>
     </ItemContainer>
     <LightComponent characterusable="false" LightColor="255,255,255,75" range="40" IsOn="true" Flicker="0.3" flickerspeed="0.1" PowerConsumption="0" VulnerableToEMP="false"></LightComponent>
   </Item>
-  <Item name="S4 Installable Medical Storage [MP]" identifier="molot_mp_portable_medical_storage" tags="smallitem,locker,container" linkable="true" cargocontaineridentifier="metalcrate" pickdistance="150" scale="0.5" description="Portable and Installable version of S4 Medical Storage. Only medical items and components can be stored here. Human body parts will not be accepted. On the Back of the Item says : - To install hold in your hands, hold right mouse button to see where you are going to place it and than press [E] to install. To detach use Molot Multi Tool.">
+  <Item name="S4 Installable Medical Storage" identifier="molot_mp_portable_medical_storage" tags="smallitem,locker,container" linkable="true" cargocontaineridentifier="metalcrate" pickdistance="150" scale="0.5" description="Portable and Installable version of S4 Medical Storage. Only medical items and components can be stored here. Human body parts will not be accepted. On the Back of the Item says : - To install hold in your hands, hold right mouse button to see where you are going to place it and than press [E] to install. To detach use Molot Multi Tool.">
     <Price baseprice="50">
       <Price locationtype="outpost" multiplier="1" minavailable="5" />
       <Price locationtype="city" multiplier="1" minavailable="5" />
@@ -89,13 +89,13 @@
     <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="[E] Detach with Molot Multi Tool" PickingTime="5.0" aimpos="35,-10" handle1="0,0" attachable="true" aimable="true">
       <RequiredItem identifier="molot_multitool" type="Equipped" />
     </Holdable>
-    <ItemContainer autofill="False" capacity="100" slotsperrow="15" canbeselected="true" hideitems="true" movableframe="true" keepopenwhenequipped="false">
+    <ItemContainer autofill="False" capacity="50" slotsperrow="15" canbeselected="true" hideitems="true" movableframe="true" keepopenwhenequipped="false">
       <GuiFrame relativesize="0.6,0.7" anchor="Center" style="ItemUI" />
       <Containable identifiers="smallitem,medical,plant,chem,explosive" excludeditems="toolbox,ore,tool,oxygentank,oxygenitetank,weldingfueltank,incendiumfueltank,wire,button,weapon,gun,clothing,grenade" />
     </ItemContainer>
     <LightComponent characterusable="false" LightColor="255,255,255,75" range="40" IsOn="true" Flicker="0.3" flickerspeed="0.1" PowerConsumption="0" VulnerableToEMP="false"></LightComponent>
   </Item>
-  <Item name="S4 Installable Material Storage [MP]" identifier="molot_mp_portable_material_storage" tags="smallitem,locker,container" linkable="true" pickdistance="150" cargocontaineridentifier="metalcrate" scale="0.5" description="Portable and Installable version of S4 Material Storage. Only crafting materials and components can be stored here. Storing Material storage into material storage, would not help you save space. Buy additional Material Storage. On the Back of the Item says : - To install hold in your hands, hold right mouse button to see where you are going to place it and than press [E] to install. To detach use Molot Multi Tool.">
+  <Item name="S4 Installable Material Storage" identifier="molot_mp_portable_material_storage" tags="smallitem,locker,container" linkable="true" pickdistance="150" cargocontaineridentifier="metalcrate" scale="0.5" description="Portable and Installable version of S4 Material Storage. Only crafting materials and components can be stored here. Storing Material storage into material storage, would not help you save space. Buy additional Material Storage. On the Back of the Item says : - To install hold in your hands, hold right mouse button to see where you are going to place it and than press [E] to install. To detach use Molot Multi Tool.">
     <Price baseprice="50">
       <Price locationtype="outpost" multiplier="1" minavailable="5" />
       <Price locationtype="city" multiplier="1" minavailable="5" />
@@ -105,7 +105,7 @@
     </Price>
     <Sprite texture="molot_containers.png" depth="0.7" sourcerect="400,0,100,138" origin="0.5,0.5" />
     <Body width="150" height="150" density="10" />
-    <ItemContainer autofill="False" capacity="100" slotsperrow="15" canbeselected="true" hideitems="true" movableframe="true" keepopenwhenequipped="false">
+    <ItemContainer autofill="False" capacity="50" slotsperrow="15" canbeselected="true" hideitems="true" movableframe="true" keepopenwhenequipped="false">
       <GuiFrame relativesize="0.6,0.7" anchor="Center" style="ItemUI" />
       <Containable identifiers="smallitem,ore,plant,chem,explosive" excludeditems="toolbox,medical,tool,oxygentank,oxygenitetank,weldingfueltank,incendiumfueltank,wire,button,weapon,gun,clothing,grenade" />
     </ItemContainer>
@@ -114,7 +114,7 @@
     </Holdable>
     <LightComponent characterusable="false" LightColor="255,255,255,75" range="40" IsOn="true" Flicker="0.3" flickerspeed="0.1" PowerConsumption="0" VulnerableToEMP="false"></LightComponent>
   </Item>
-  <Item name="S4 Installable Explosive Storage [MP]" identifier="molot_mp_portable_explosive_storage" tags="smallitem,locker,container" linkable="true" pickdistance="150" scale="0.5" cargocontaineridentifier="metalcrate" description="Portable and Installable version of S4 Explosive Storage. Only crafting materials to produce explosives can be stored here. Storage Terminal accepts only explosive related items. Any other item is rejected for security reasons. Please note, this is not your personal grenade pouch. On the Back of the Item says : - To install hold in your hands, hold right mouse button to see where you are going to place it and than press [E] to install. To detach use Molot Multi Tool.">
+  <Item name="S4 Installable Explosive Storage" identifier="molot_mp_portable_explosive_storage" tags="smallitem,locker,container" linkable="true" pickdistance="150" scale="0.5" cargocontaineridentifier="metalcrate" description="Portable and Installable version of S4 Explosive Storage. Only crafting materials to produce explosives can be stored here. Storage Terminal accepts only explosive related items. Any other item is rejected for security reasons. Please note, this is not your personal grenade pouch. On the Back of the Item says : - To install hold in your hands, hold right mouse button to see where you are going to place it and than press [E] to install. To detach use Molot Multi Tool.">
     <Price baseprice="50">
       <Price locationtype="outpost" multiplier="1" minavailable="5" />
       <Price locationtype="city" multiplier="1" minavailable="5" />
@@ -124,7 +124,7 @@
     </Price>
     <Sprite texture="molot_containers.png" depth="0.7" sourcerect="200,0,100,138" origin="0.5,0.5" />
     <Body width="150" height="150" density="10" />
-    <ItemContainer autofill="False" capacity="100" slotsperrow="15" canbeselected="true" hideitems="true" movableframe="true" keepopenwhenequipped="false">
+    <ItemContainer autofill="False" capacity="50" slotsperrow="15" canbeselected="true" hideitems="true" movableframe="true" keepopenwhenequipped="false">
       <GuiFrame relativesize="0.6,0.7" anchor="Center" style="ItemUI" />
       <Containable identifiers="smallitem,mediumitem,grenade,weapon,chem,explosive,incendiumfueltank" excludeditems="toolbox,ore,medical,plant,tool,oxygentank,oxygenitetank,weldingfueltank,wire,button,gun,clothing" />
     </ItemContainer>
@@ -133,7 +133,7 @@
     </Holdable>
     <LightComponent characterusable="false" LightColor="255,255,255,75" range="40" IsOn="true" Flicker="0.3" flickerspeed="0.1" PowerConsumption="0" VulnerableToEMP="false"></LightComponent>
   </Item>
-  <Item name="S4 Installable Tool Storage [MP]" identifier="molot_mp_portable_tool_storage" tags="smallitem,locker,container" linkable="true" pickdistance="150" scale="0.5" cargocontaineridentifier="metalcrate" description="Portable and Installable version of S4 Tool Storage. Storage Terminal accepts only technical and electrical tools, as well as fuel for said tools. Any other item is rejected for security reasons. Using it as massive toolbox is not intented, please don`t do it. On the Back of the Item says : - To install hold in your hands, hold right mouse button to see where you are going to place it and than press [E] to install. To detach use Molot Multi Tool.">
+  <Item name="S4 Installable Tool Storage" identifier="molot_mp_portable_tool_storage" tags="smallitem,locker,container" linkable="true" pickdistance="150" scale="0.5" cargocontaineridentifier="metalcrate" description="Portable and Installable version of S4 Tool Storage. Storage Terminal accepts only technical and electrical tools, as well as fuel for said tools. Any other item is rejected for security reasons. Using it as massive toolbox is not intented, please don`t do it. On the Back of the Item says : - To install hold in your hands, hold right mouse button to see where you are going to place it and than press [E] to install. To detach use Molot Multi Tool.">
     <Price baseprice="50">
       <Price locationtype="outpost" multiplier="1" minavailable="5" />
       <Price locationtype="city" multiplier="1" minavailable="5" />
@@ -143,7 +143,7 @@
     </Price>
     <Sprite texture="molot_containers.png" depth="0.7" sourcerect="300,0,100,138" origin="0.5,0.5" />
     <Body width="150" height="150" density="10" />
-    <ItemContainer autofill="False" capacity="100" slotsperrow="15" canbeselected="true" hideitems="true" movableframe="true" keepopenwhenequipped="false">
+    <ItemContainer autofill="False" capacity="50" slotsperrow="15" canbeselected="true" hideitems="true" movableframe="true" keepopenwhenequipped="false">
       <GuiFrame relativesize="0.6,0.7" anchor="Center" style="ItemUI" />
       <Containable identifiers="smallitem,mediumitem,tool,button,oxygentank,oxygenitetank,weldingfueltank,incendiumfueltank,wire,toolbox,incendiumfueltank," excludeditems="ore,grenade,weapon,chem,explosive,medical,plant,weapon,gun,clothing,grenade" />
     </ItemContainer>
@@ -152,7 +152,7 @@
     </Holdable>
     <LightComponent characterusable="false" LightColor="255,255,255,75" range="40" IsOn="true" Flicker="0.3" flickerspeed="0.1" PowerConsumption="0" VulnerableToEMP="false"></LightComponent>
   </Item>
-  <Item name="S4 Installable Ammo Storage [MP]" identifier="molot_mp_portable_ammo_storage" tags="smallitem,locker,container" linkable="true" pickdistance="150" scale="0.5" cargocontaineridentifier="metalcrate" description="Portable and Installable version of S4 Ammo Storage. Storage Terminal accepts only ammo from personal firearms. Any other item is rejected for security reasons. Yes, you can carry the storage in your pockets, and yes, you can store your whole arsenal. But should you? Molot Industries doesn`t approve, use of this storage device in such capacity, wink-wink. On the Back of the Item says : - To install hold in your hands, hold right mouse button to see where you are going to place it and than press [E] to install. To detach use Molot Multi Tool.">
+  <Item name="S4 Installable Ammo Storage" identifier="molot_mp_portable_ammo_storage" tags="smallitem,locker,container" linkable="true" pickdistance="150" scale="0.5" cargocontaineridentifier="metalcrate" description="Portable and Installable version of S4 Ammo Storage. Storage Terminal accepts only ammo from personal firearms. Any other item is rejected for security reasons. Yes, you can carry the storage in your pockets, and yes, you can store your whole arsenal. But should you? Molot Industries doesn`t approve, use of this storage device in such capacity, wink-wink. On the Back of the Item says : - To install hold in your hands, hold right mouse button to see where you are going to place it and than press [E] to install. To detach use Molot Multi Tool.">
     <Price baseprice="50">
       <Price locationtype="outpost" multiplier="1" minavailable="5" />
       <Price locationtype="city" multiplier="1" minavailable="5" />
@@ -162,7 +162,7 @@
     </Price>
     <Sprite texture="molot_containers.png" depth="0.7" sourcerect="500,0,100,138" origin="0.5,0.5" />
     <Body width="150" height="150" density="10" />
-    <ItemContainer autofill="False" capacity="100" slotsperrow="15" canbeselected="true" hideitems="true" movableframe="true" keepopenwhenequipped="false">
+    <ItemContainer autofill="False" capacity="50" slotsperrow="15" canbeselected="true" hideitems="true" movableframe="true" keepopenwhenequipped="false">
       <GuiFrame relativesize="0.6,0.7" anchor="Center" style="ItemUI" />
       <Containable identifiers="smallitem,mediumitem" excludeditems="ore,grenade,weapon,chem,explosive,medical,plant,weapon,gun,clothing,grenade,mediumitem,tool,button,oxygentank,oxygenitetank,weldingfueltank,incendiumfueltank,wire,toolbox,incendiumfueltank" />
     </ItemContainer>
@@ -171,7 +171,7 @@
     </Holdable>
     <LightComponent characterusable="false" LightColor="255,255,255,75" range="40" IsOn="true" Flicker="0.3" flickerspeed="0.1" PowerConsumption="0" VulnerableToEMP="false"></LightComponent>
   </Item>
-  <Item name="S4 Installable Weapon Storage [MP]" identifier="molot_mp_portable_weapon_storage" tags="smallitem,locker,container" linkable="true" pickdistance="150" scale="0.5" cargocontaineridentifier="metalcrate" description="Portable and Installable version of S4 Weapon Storage. Storage Terminal accepts only pistols, smgs, shotgun and alike. Any other item is rejected for safety reasons. It is not blue, but it is bigger on the inside. On the Back of the Item says : - To install hold in your hands, hold right mouse button to see where you are going to place it and than press [E] to install. To detach use Molot Multi Tool.">
+  <Item name="S4 Installable Weapon Storage" identifier="molot_mp_portable_weapon_storage" tags="smallitem,locker,container" linkable="true" pickdistance="150" scale="0.5" cargocontaineridentifier="metalcrate" description="Portable and Installable version of S4 Weapon Storage. Storage Terminal accepts only pistols, smgs, shotgun and alike. Any other item is rejected for safety reasons. It is not blue, but it is bigger on the inside. On the Back of the Item says : - To install hold in your hands, hold right mouse button to see where you are going to place it and than press [E] to install. To detach use Molot Multi Tool.">
     <Price baseprice="50">
       <Price locationtype="outpost" multiplier="1" minavailable="5" />
       <Price locationtype="city" multiplier="1" minavailable="5" />
@@ -181,7 +181,7 @@
     </Price>
     <Sprite texture="molot_containers.png" depth="0.7" sourcerect="600,0,100,138" origin="0.5,0.5" />
     <Body width="150" height="150" density="10" />
-    <ItemContainer autofill="False" capacity="100" slotsperrow="15" canbeselected="true" hideitems="true" movableframe="true" keepopenwhenequipped="false">
+    <ItemContainer autofill="False" capacity="50" slotsperrow="15" canbeselected="true" hideitems="true" movableframe="true" keepopenwhenequipped="false">
       <GuiFrame relativesize="0.6,0.7" anchor="Center" style="ItemUI" />
       <Containable identifiers="smallitem,mediumitem,weapon,gun" excludeditems="ore,grenadechem,explosive,medical,plant,clothing,grenade,tool,button,oxygentank,oxygenitetank,weldingfueltank,incendiumfueltank,wire,toolbox,incendiumfueltank" />
     </ItemContainer>
