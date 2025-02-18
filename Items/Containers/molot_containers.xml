@@ -76,7 +76,7 @@
     </ItemContainer>
     <LightComponent characterusable="false" LightColor="255,255,255,75" range="40" IsOn="true" Flicker="0.3" flickerspeed="0.1" PowerConsumption="0" VulnerableToEMP="false"></LightComponent>
   </Item>
-  <Item name="S4 Installable Medical Storage" identifier="molot_mp_portable_medical_storage" tags="smallitem,locker,container" linkable="true" cargocontaineridentifier="metalcrate" pickdistance="150" scale="0.5" description="Portable and Installable version of S4 Medical Storage. Only medical items and components can be stored here. Human body parts will not be accepted. On the Back of the Item says : - To install hold in your hands, hold right mouse button to see where you are going to place it and than press [E] to install. To detach use Molot Multi Tool.">
+  <Item name="S4 Installable Medical Storage" identifier="molot_mp_portable_medical_storage" tags="crate,locker,container" linkable="true" cargocontaineridentifier="metalcrate" pickdistance="150" scale="0.5" description="Portable and Installable version of S4 Medical Storage. Only medical items and components can be stored here. Human body parts will not be accepted. On the Back of the Item says : - To install hold in your hands, hold right mouse button to see where you are going to place it and than press [E] to install. To detach use Molot Multi Tool.">
     <Price baseprice="50">
       <Price locationtype="outpost" multiplier="1" minavailable="5" />
       <Price locationtype="city" multiplier="1" minavailable="5" />
@@ -95,7 +95,7 @@
     </ItemContainer>
     <LightComponent characterusable="false" LightColor="255,255,255,75" range="40" IsOn="true" Flicker="0.3" flickerspeed="0.1" PowerConsumption="0" VulnerableToEMP="false"></LightComponent>
   </Item>
-  <Item name="S4 Installable Material Storage" identifier="molot_mp_portable_material_storage" tags="smallitem,locker,container" linkable="true" pickdistance="150" cargocontaineridentifier="metalcrate" scale="0.5" description="Portable and Installable version of S4 Material Storage. Only crafting materials and components can be stored here. Storing Material storage into material storage, would not help you save space. Buy additional Material Storage. On the Back of the Item says : - To install hold in your hands, hold right mouse button to see where you are going to place it and than press [E] to install. To detach use Molot Multi Tool.">
+  <Item name="S4 Installable Material Storage" identifier="molot_mp_portable_material_storage" tags="crate,locker,container" linkable="true" pickdistance="150" cargocontaineridentifier="metalcrate" scale="0.5" description="Portable and Installable version of S4 Material Storage. Only crafting materials and components can be stored here. Storing Material storage into material storage, would not help you save space. Buy additional Material Storage. On the Back of the Item says : - To install hold in your hands, hold right mouse button to see where you are going to place it and than press [E] to install. To detach use Molot Multi Tool.">
     <Price baseprice="50">
       <Price locationtype="outpost" multiplier="1" minavailable="5" />
       <Price locationtype="city" multiplier="1" minavailable="5" />
@@ -114,7 +114,7 @@
     </Holdable>
     <LightComponent characterusable="false" LightColor="255,255,255,75" range="40" IsOn="true" Flicker="0.3" flickerspeed="0.1" PowerConsumption="0" VulnerableToEMP="false"></LightComponent>
   </Item>
-  <Item name="S4 Installable Explosive Storage" identifier="molot_mp_portable_explosive_storage" tags="smallitem,locker,container" linkable="true" pickdistance="150" scale="0.5" cargocontaineridentifier="metalcrate" description="Portable and Installable version of S4 Explosive Storage. Only crafting materials to produce explosives can be stored here. Storage Terminal accepts only explosive related items. Any other item is rejected for security reasons. Please note, this is not your personal grenade pouch. On the Back of the Item says : - To install hold in your hands, hold right mouse button to see where you are going to place it and than press [E] to install. To detach use Molot Multi Tool.">
+  <Item name="S4 Installable Explosive Storage" identifier="molot_mp_portable_explosive_storage" tags="crate,locker,container" linkable="true" pickdistance="150" scale="0.5" cargocontaineridentifier="metalcrate" description="Portable and Installable version of S4 Explosive Storage. Only crafting materials to produce explosives can be stored here. Storage Terminal accepts only explosive related items. Any other item is rejected for security reasons. Please note, this is not your personal grenade pouch. On the Back of the Item says : - To install hold in your hands, hold right mouse button to see where you are going to place it and than press [E] to install. To detach use Molot Multi Tool.">
     <Price baseprice="50">
       <Price locationtype="outpost" multiplier="1" minavailable="5" />
       <Price locationtype="city" multiplier="1" minavailable="5" />
@@ -133,7 +133,7 @@
     </Holdable>
     <LightComponent characterusable="false" LightColor="255,255,255,75" range="40" IsOn="true" Flicker="0.3" flickerspeed="0.1" PowerConsumption="0" VulnerableToEMP="false"></LightComponent>
   </Item>
-  <Item name="S4 Installable Tool Storage" identifier="molot_mp_portable_tool_storage" tags="smallitem,locker,container" linkable="true" pickdistance="150" scale="0.5" cargocontaineridentifier="metalcrate" description="Portable and Installable version of S4 Tool Storage. Storage Terminal accepts only technical and electrical tools, as well as fuel for said tools. Any other item is rejected for security reasons. Using it as massive toolbox is not intented, please don`t do it. On the Back of the Item says : - To install hold in your hands, hold right mouse button to see where you are going to place it and than press [E] to install. To detach use Molot Multi Tool.">
+  <Item name="S4 Installable Tool Storage" identifier="molot_mp_portable_tool_storage" tags="crate,locker,container" linkable="true" pickdistance="150" scale="0.5" cargocontaineridentifier="metalcrate" description="Portable and Installable version of S4 Tool Storage. Storage Terminal accepts only technical and electrical tools, as well as fuel for said tools. Any other item is rejected for security reasons. Using it as massive toolbox is not intented, please don`t do it. On the Back of the Item says : - To install hold in your hands, hold right mouse button to see where you are going to place it and than press [E] to install. To detach use Molot Multi Tool.">
     <Price baseprice="50">
       <Price locationtype="outpost" multiplier="1" minavailable="5" />
       <Price locationtype="city" multiplier="1" minavailable="5" />
@@ -152,7 +152,7 @@
     </Holdable>
     <LightComponent characterusable="false" LightColor="255,255,255,75" range="40" IsOn="true" Flicker="0.3" flickerspeed="0.1" PowerConsumption="0" VulnerableToEMP="false"></LightComponent>
   </Item>
-  <Item name="S4 Installable Ammo Storage" identifier="molot_mp_portable_ammo_storage" tags="smallitem,locker,container" linkable="true" pickdistance="150" scale="0.5" cargocontaineridentifier="metalcrate" description="Portable and Installable version of S4 Ammo Storage. Storage Terminal accepts only ammo from personal firearms. Any other item is rejected for security reasons. Yes, you can carry the storage in your pockets, and yes, you can store your whole arsenal. But should you? Molot Industries doesn`t approve, use of this storage device in such capacity, wink-wink. On the Back of the Item says : - To install hold in your hands, hold right mouse button to see where you are going to place it and than press [E] to install. To detach use Molot Multi Tool.">
+  <Item name="S4 Installable Ammo Storage" identifier="molot_mp_portable_ammo_storage" tags="crate,locker,container" linkable="true" pickdistance="150" scale="0.5" cargocontaineridentifier="metalcrate" description="Portable and Installable version of S4 Ammo Storage. Storage Terminal accepts only ammo from personal firearms. Any other item is rejected for security reasons. Yes, you can carry the storage in your pockets, and yes, you can store your whole arsenal. But should you? Molot Industries doesn`t approve, use of this storage device in such capacity, wink-wink. On the Back of the Item says : - To install hold in your hands, hold right mouse button to see where you are going to place it and than press [E] to install. To detach use Molot Multi Tool.">
     <Price baseprice="50">
       <Price locationtype="outpost" multiplier="1" minavailable="5" />
       <Price locationtype="city" multiplier="1" minavailable="5" />
@@ -171,7 +171,7 @@
     </Holdable>
     <LightComponent characterusable="false" LightColor="255,255,255,75" range="40" IsOn="true" Flicker="0.3" flickerspeed="0.1" PowerConsumption="0" VulnerableToEMP="false"></LightComponent>
   </Item>
-  <Item name="S4 Installable Weapon Storage" identifier="molot_mp_portable_weapon_storage" tags="smallitem,locker,container" linkable="true" pickdistance="150" scale="0.5" cargocontaineridentifier="metalcrate" description="Portable and Installable version of S4 Weapon Storage. Storage Terminal accepts only pistols, smgs, shotgun and alike. Any other item is rejected for safety reasons. It is not blue, but it is bigger on the inside. On the Back of the Item says : - To install hold in your hands, hold right mouse button to see where you are going to place it and than press [E] to install. To detach use Molot Multi Tool.">
+  <Item name="S4 Installable Weapon Storage" identifier="molot_mp_portable_weapon_storage" tags="crate,locker,container" linkable="true" pickdistance="150" scale="0.5" cargocontaineridentifier="metalcrate" description="Portable and Installable version of S4 Weapon Storage. Storage Terminal accepts only pistols, smgs, shotgun and alike. Any other item is rejected for safety reasons. It is not blue, but it is bigger on the inside. On the Back of the Item says : - To install hold in your hands, hold right mouse button to see where you are going to place it and than press [E] to install. To detach use Molot Multi Tool.">
     <Price baseprice="50">
       <Price locationtype="outpost" multiplier="1" minavailable="5" />
       <Price locationtype="city" multiplier="1" minavailable="5" />
