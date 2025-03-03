@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Molot Storage System (50 Slots)" steamworkshopid="2244657211" corepackage="false" modversion="1.0.0" gameversion="0.10.5.1" installtime="1601550040" altnames="Molot Storage System (50 Slots)">
+<contentpackage name="Molot Storage System (50 Slots)" modversion="1.0.1" corepackage="False" steamworkshopid="3433029161" gameversion="1.7.7.0" altnames="Molot Storage System (50 Slots)">
   <Item file="%ModDir%/Items/Containers/molot_containers.xml" />
-  <None file="%ModDir%/Items/Containers/molot_containers.png" />
+  <Other file="%ModDir%/Items/Containers/molot_containers.png" />
   <Item file="%ModDir%/Items/Tools/molot_tools.xml" />
-  <None file="%ModDir%/Items/Tools/molot_tools.png" />
+  <Other file="%ModDir%/Items/Tools/molot_tools.png" />
 </contentpackage>
